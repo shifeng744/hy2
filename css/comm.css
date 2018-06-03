@@ -40,7 +40,8 @@ body{background:#f8f8f8}
 .g-wrap .container .info-many{margin-left:0}
 .g-wrap .tk-warp .content{width:300px;padding:6px;margin-left:-150px}
 }
-.g-login{background:#f8f8f8}
+.login-html{height:100%}
+.g-login{background:#f8f8f8;position:relative;width:100%;height:100%}
 .login-frame{text-align:center;width:380px;height:380px;background:#fff;position:absolute;left:50%;top:50%;margin-left:-190px;margin-top:-190px}
 .login-frame .logo-lzz{margin:15px}
 .login-frame .form-control{width:300px;margin:0 auto}
