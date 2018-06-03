@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" content="">
+		<meta name="Keywords" content="">
+		<title></title>
+		<!-- Bootstrap -->
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+		<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+		<!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+		<link rel="stylesheet" href="css/comm.css" charset="utf-8">
+	</head>
+
+	<body>
+
+		<div class="g-wrap">
+			<div class="hy-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<img src="ossweb-img/logo.png" class="logo" />
+							<div class="list-group">
+								<a href="#" class="list-group-item active">
+									个人中心
+								</a>
+								<a href="#" class="list-group-item">发布出租房源</a>
+								<a href="#" class="list-group-item">我发布的房源</a>
+								<a href="#" class="list-group-item">已下架的房源</a>
+
+							</div>
+						</div>
+						<!--个人中心-->
+						<div class="tab tab-1 cur col-lg-9 col-md-9 col-sm-9">
+							<h3 class="title">个人中心</h3>
+							<div class="media row">
+								<div class=" media-middle col-lg-3 col-md-3 col-sm-3">
+									<a href="#">
+										<img class="media-object img-rounded" src="ossweb-img/tx.png" alt="...">
+									</a>
+								</div>
+								<div class=" col-lg-9 col-md-9 col-sm-9">
+									<div class="info-many">
+										<p class="info-name-mun row">
+											<span class="im-left col-xs-12 col-lg-6">姓名：<em>林鸿豪</em> <button>修改</button></span>
+											<span class="im-right col-xs-12 col-lg-6">联系方式：<em>13800138000</em> <button>修改</button></span>
+
+										</p>
+										<p>负责区域：新县城</p>
+										<div class="info-house">
+											<p><span class="num1">36套</span>负责房源</p>
+											<p>
+												<span class="ih-left">已租<em>7</em>套</span>
+												<span class="ih-right">未租售<em>29</em>套</span>
+											</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<!--发布出租房源-->
+						<div class="tab tab-2 col-lg-9 col-md-9 col-sm-9">
+							<h3 class="title">发布出租房源</h3>
+							<br />
+							<p class="title">类别</p>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-sm-2 control-label"><span class="red-color">*</span>出租方式</label>
+									<div class="col-sm-10">
+										<label class="radio-inline">
+								<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 整套出租
+								</label>
+										<label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 单间出租
+								</label>
+									</div>
+								</div>
+
+								<p class="title">基础信息</p>
+
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-2 control-label"><span class="red-color">*</span>小区名称</label>
+									<div class="col-sm-10">
+										<input type="password" class="form-control" id="inputPassword" placeholder="请输入小区名称">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-2 control-label"><span class="red-color">*</span>房屋类型</label>
+									<div class="col-sm-10">
+										<div class="input-group">
+
+											<input type="text" class="form-control" id="exampleInputAmount4" placeholder="3">
+											<div class="input-group-addon">房</div>
+											<input type="text" class="form-control" id="exampleInputAmount5" placeholder="2">
+											<div class="input-group-addon">厅</div>
+											<input type="text" class="form-control" id="exampleInputAmount6" placeholder="2">
+											<div class="input-group-addon">卫</div>
+											<div class="input-group-addon">共</div>
+											<input type="text" class="form-control" id="exampleInputAmount7" placeholder="2">
+											<div class="input-group-addon">㎡</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-2 control-label"></label>
+									<div class="col-sm-10">
+										<select class="form-control select1 ">
+											<option>请选择朝向</option>
+											<option>东</option>
+											<option>男</option>
+											<option>西</option>
+											<option>北</option>
+										</select>
+										<select class="form-control select1">
+											<option>简单装修</option>
+											<option>精装</option>
+											<option>豪华装修</option>
+
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-2 control-label"><span class="red-color">*</span>楼层</label>
+									<div class="col-sm-10">
+										<div class="input-group">
+											
+											<div class="input-group-addon">第</div>
+											<input type="text" class="form-control" id="exampleInputAmount2" placeholder="">
+											<div class="input-group-addon">层</div>
+											<div class="input-group-addon">共</div>
+
+											<input type="text" class="form-control" id="exampleInputAmount3" placeholder="">
+											<div class="input-group-addon">层</div>
+											<select class="form-control select1">
+												<option>有/无</option>
+												<option>有</option>
+												<option>无</option>
+
+											</select>
+
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-2 control-label"><span class="red-color">*</span>车位</label>
+									<div class="col-sm-10">
+										<select class="form-control select1">
+											<option>有/无</option>
+											<option>有</option>
+											<option>无</option>
+
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-2 control-label"><span class="red-color">*</span>租金</label>
+									<div class="col-sm-3">
+										<div class="input-group">
+
+											<input type="text" class="form-control" id="exampleInputAmount1" placeholder="">
+											<div class="input-group-addon">元/月</div>
+			
+
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-2 control-label"><span class="red-color">*</span>上传图片</label>
+									<div class="col-sm-3">
+										<input type="file" id="exampleInputFile">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-2 control-label"><span class="red-color">*</span>房屋描述</label>
+									<div class="col-sm-8">
+										<textarea class="form-control" rows="3"></textarea>
+									</div>
+								</div>
+								<p class="title">其他信息</p>
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-2 control-label"><span class="red-color">*</span>联系人</label>
+									<div class="col-sm-4">
+										<input type="text" class="form-control" placeholder="">
+									</div>
+								</div>
+								<button type="submit" class="btn btn-info btn-submit" >发布提交</button>
+							</form>
+
+						</div>
+						<!--我发布的房源-->
+						<div class="tab tab-3 col-lg-9 col-md-9 col-sm-9">
+							<h3 class="title">我发布的房源</h3>
+							<table class="table1 table">
+								<thead>
+									<tr>
+										<th>ID</th>
+										<th>选择</th>
+										<th>房源名称详情</th>
+										<th>状态</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>1</th>
+										<td><input type="checkbox" /></td>
+										<td>新县城盘古花园B区A7栋304 90平方小三房 1400每月</td>
+										<td>租售中</td>
+										<td><button>修改</button><button>售馨</button></td>
+									</tr>
+									<tr>
+										<th>2</th>
+										<td><input type="checkbox" /></td>
+										<td>新县城盘古花园B区A7栋304 90平方小三房 1400每月</td>
+										<td>租售中</td>
+										<td><button>修改</button><button>售馨</button></td>
+									</tr>
+									<tr>
+										<th>3</th>
+										<td><input type="checkbox" /></td>
+										<td>新县城盘古花园B区A7栋304 90平方小三房 1400每月</td>
+										<td>租售中</td>
+										<td><button>修改</button><button>售馨</button></td>
+									</tr>
+									<tr>
+										<th>4</th>
+										<td><input type="checkbox" /></td>
+										<td>新县城盘古花园B区A7栋304 90平方小三房 1400每月</td>
+										<td>租售中</td>
+										<td><button>修改</button><button>售馨</button></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!--已下架的房源-->
+						<div class="tab tab-4 col-lg-9 col-md-9 col-sm-9">
+							<h3 class="title">已下架的房源</h3>
+							<table class="table1 table">
+								<thead>
+									<tr>
+										<th>ID</th>
+										<th>选择</th>
+										<th>房源名称详情</th>
+										<th>状态</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>1</th>
+										<td><input type="checkbox" /></td>
+										<td>新县城盘古花园B区A7栋304 90平方小三房 1400每月</td>
+										<td>售馨</td>
+										<td><button>修改</button><button>上架</button></td>
+									</tr>
+									<tr>
+										<th>2</th>
+										<td><input type="checkbox" /></td>
+										<td>新县城盘古花园B区A7栋304 90平方小三房 1400每月</td>
+										<td>售馨</td>
+										<td><button>修改</button><button>上架</button></td>
+									</tr>
+									<tr>
+										<th>3</th>
+										<td><input type="checkbox" /></td>
+										<td>新县城盘古花园B区A7栋304 90平方小三房 1400每月</td>
+										<td>售馨</td>
+										<td><button>修改</button><button>上架</button></td>
+									</tr>
+									<tr>
+										<th>4</th>
+										<td><input type="checkbox" /></td>
+										<td>新县城盘古花园B区A7栋304 90平方小三房 1400每月</td>
+										<td>售馨</td>
+										<td><button>修改</button><button>上架</button></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+				<!--弹框-->
+			<div class="tk-warp">
+				<div class="zz"></div>
+
+				<div class="content ">
+					<h3 >在线委托</h3>
+					<p>请留下您的房屋信息与联系方式，自如将再30分钟内致电您，提供专业咨询</p>
+				<div class="tk-close">X</div>
+					
+					<form>
+					  <div class="form-group">
+					    <label for="wt-name">姓名（必填）</label>
+					    <input type="text" class="form-control" id="wt-name" placeholder="输入姓名">
+					    <label for="wt-phone">联系电话（必填）</label>
+					    <input type="text" class="form-control" id="wt-phone" placeholder="输入电话">
+					    <label for="wt-house">房屋城市（必填）</label>
+					    <input type="text" class="form-control" id="wt-house" placeholder="输入房屋城市">
+					    <label for="wt-village">小区（必填）</label>
+					    <select class="form-control" id="wt-city">
+						  <option>新县城</option>
+						  <option>2</option>
+						  <option>3</option>
+						  <option>4</option>
+						  <option>5</option>
+						</select>
+					    <label for="wt-code">验证码（必填）</label>
+					    <input type="text" class="form-control" id="wt-code" placeholder="输入验证码">
+					    <button class="btn btn-info submit">提交</button>
+					  </div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/comm.js"></script>
+
+	</body>
+
+</html>
